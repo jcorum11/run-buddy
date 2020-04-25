@@ -67,10 +67,14 @@ footer div {
 }
 
 footer a {
-    color: #a24e76
+    color: #a24e76;
 }
 
 section {
     padding: 60px;
-    background-image: url("../images/hero-bg.jpg")
+}
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
 }
