@@ -58,3 +58,13 @@ footer h2 {
     font-size: 30px;
     margin: 0;
 }
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #a24e76
+}
