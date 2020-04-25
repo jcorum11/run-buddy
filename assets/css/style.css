@@ -10,7 +10,7 @@ header {
     background-color: #39a6b2
 }
 
-header h1 {
+header h1 a {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
