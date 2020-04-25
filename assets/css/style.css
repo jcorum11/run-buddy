@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     /* more on this crazy alphanumeric value later*/ 
     color: #39a6b2;
@@ -10,6 +15,10 @@ header {
     background-color: #39a6b2
 }
 
+header h1 {
+    display: inline;
+}
+
 header h1 a {
     font-weight: bold;
     font-size: 36px;
@@ -19,5 +28,20 @@ header h1 a {
 
 header a {
     text-decoration: none;
-    color: #fce138
+    color: #fce138;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
