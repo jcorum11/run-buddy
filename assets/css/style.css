@@ -85,5 +85,6 @@ section {
     color: #024e76;
     padding: 20px 35px;
     width: 600px;
-    background-color: #fce138
+    background-color: #fce138;
+    float: right;
 }
