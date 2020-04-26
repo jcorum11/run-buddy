@@ -94,7 +94,7 @@ section {
 }
 
 .hero-form h3 { 
-    margin: 0px;
+    margin-bottom: 15px;
     font-size: 24px;
 }
 
@@ -109,6 +109,14 @@ section {
     padding: 7px 15px;
     color: #024e76;
     width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-instructions {
+    margin-bottom: 15px;
+}
+
+#acknowledge {
     margin-bottom: 15px;
 }
 
