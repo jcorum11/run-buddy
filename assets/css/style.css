@@ -80,3 +80,10 @@ section {
     background-size: cover;
     height: 600px;
 }
+
+.hero-form {
+    color: #024e76;
+    padding: 20px 35px;
+    width: 200px;
+    background-color: #fce138
+}
