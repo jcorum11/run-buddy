@@ -93,12 +93,21 @@ section {
     right: 140px;
 }
 
-h3 { 
+.hero-form h3 { 
     margin: 0px;
     font-size: 24px;
 }
 
-.form-instructions {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.hero-form p {
+    margin-top: 5 0 15px 0;
+}
+
+.form-input {
+    font-size: 16px;
+    border: solid 1px #024e76;
+    display: block;
+    padding: 7px 15px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
 }
