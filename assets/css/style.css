@@ -218,6 +218,10 @@ section {
     color: #024e76;
 }
 
+.step-text {
+    flex: 12;
+}
+
 .step-img {
     flex: 1 12%;
     margin-right: 20px;
@@ -228,22 +232,27 @@ section {
 }
 
 .trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
-    overflow: auto;
+    flex: 1;
+}
+
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
 }
 
 .trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
+    padding: 25px;
+    line-height: 1.3;
 }
 
 .text-left {
@@ -258,20 +267,12 @@ section {
     display: flex;
 }
 
-.trainer-bio h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
-}
-
 .trainer-bio h4 {
     font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
 }
 
 .trainer-bio p {
     font-size: 17px;
-    line-height: 1.3;
 }
 
 .contact {
