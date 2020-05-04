@@ -464,6 +464,26 @@ section {
     .step-text {
         flex: 100%;
     }
+
+    .service-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-grid-item.basic {
+        grid-column: 1 / span 1;
+    }
+
+    .service-grid-item.both {
+        grid-column: 1 / span 2;
+    }
+
+    .service-grid-item.cancel {
+        grid-column: 2;
+        writing-mode: unset;
+        transform: none;
+        grid-column: 1 / -1;
+        grid-row: -1;
+    }
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
